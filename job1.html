@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Personal Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        .header {
+            text-align: center;
+            background-color: #e0e0e0;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 10px;
+        }
+        .box {
+            background-color: #fff;
+            border: 2px solid #000;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px;
+            width: 30%;
+            min-width: 250px;
+            box-sizing: border-box;
+        }
+        .box img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome to My Personal Website</h1>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h2>个人信息</h2>
+            <p>姓名: 金同学</p>
+            <p>生日: XXXX年X月X日</p>
+            <p>MBTI: XXXX</p>
+            <img src="sun.png" alt="太阳图标">
+            <p>底色为淡粉色，红色，白色</p>
+        </div>
+
+        <div class="box">
+            <h2>个人描述</h2>
+            <p>2012-2018 XXXX小学</p>
+            <p>2018-2021 XXXX初中</p>
+            <p>2021-2024 XXXX高中</p>
+            <p>2024-2028 XXXX大学</p>
+            <img src="cloud.png" alt="云朵图标">
+        </div>
+
+        <div class="box">
+            <h2>个人爱好</h2>
+            <p>小说、电影</p>
+            <img src="cat.png" alt="猫图标">
+        </div>
+
+        <div class="box">
+            <h2>未来期望</h2>
+            <p>（可以填写你的未来期望）</p>
+        </div>
+    </div>
+
+</body>
+</html>
